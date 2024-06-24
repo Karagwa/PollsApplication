@@ -1,6 +1,6 @@
 package org.encode.pollsapplication.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import org.hibernate.annotations.NaturalId;
 
 
