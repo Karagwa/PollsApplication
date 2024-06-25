@@ -1,6 +1,6 @@
 package org.encode.pollsapplication.payload;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 public class LoginRequest {
     @NotBlank
     private String usernameOrEmail;
@@ -9,10 +9,12 @@ public class LoginRequest {
     private String password;
 
     public String getUsernameOrEmail() {
+
         return usernameOrEmail;
     }
 
     public void setUsernameOrEmail(String usernameOrEmail) {
+
         this.usernameOrEmail = usernameOrEmail;
     }
 
