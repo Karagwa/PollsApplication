@@ -1,5 +1,4 @@
 package org.encode.pollsapplication.service;
-
 import org.encode.pollsapplication.exception.BadRequestException;
 import org.encode.pollsapplication.exception.ResourceNotFoundException;
 import org.encode.pollsapplication.model.*;
